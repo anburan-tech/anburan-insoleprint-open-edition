@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security disclosure (sensitive)
+    url: mailto:anburan.align@gmail.com
+    about: Please report sensitive security issues privately.

@@ -1,0 +1,65 @@
+name: Field test report
+description: Share print and fit exploration observations for the open-source edition.
+title: "[Field Test]: "
+labels:
+  - field-test
+body:
+  - type: input
+    id: printer_model
+    attributes:
+      label: Printer model
+    validations:
+      required: true
+  - type: input
+    id: material_used
+    attributes:
+      label: Material used
+      placeholder: e.g., TPU 95A
+    validations:
+      required: true
+  - type: input
+    id: slicer_used
+    attributes:
+      label: Slicer used
+      placeholder: e.g., PrusaSlicer 2.8
+    validations:
+      required: true
+  - type: input
+    id: print_duration
+    attributes:
+      label: Print duration
+      placeholder: e.g., 2h 15m
+    validations:
+      required: true
+  - type: dropdown
+    id: stl_print_success
+    attributes:
+      label: Did the STL print successfully?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: dropdown
+    id: boundary_confirmation
+    attributes:
+      label: Was this only tested as an everyday footwear fit exploration artifact?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: textarea
+    id: comfort_observations
+    attributes:
+      label: Plain-language comfort observations
+      description: Describe general fit/feel observations without medical claims.
+    validations:
+      required: true
+  - type: checkboxes
+    id: no_medical_claims
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I confirm this report does not include medical, clinical, orthotic, therapeutic, or corrective claims.
+          required: true
