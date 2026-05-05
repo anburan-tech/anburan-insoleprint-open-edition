@@ -81,3 +81,10 @@ Helpful feedback includes printer setup, print outcome, and plain-language comfo
 - **Intended users:** personal users, makers, small studios, and 3D printing practitioners
 - **Not for:** medical, clinical, orthotic, therapeutic, or commercial fitting claims
 - Users should test cautiously and submit feedback through Issues
+
+## Contributing and feedback
+
+- See [CONTRIBUTING.md](CONTRIBUTING.md)
+- See [SECURITY.md](SECURITY.md)
+- Open [GitHub Issues](../../issues)
+- Review [PUBLIC_RELEASE_CHECKLIST.md](PUBLIC_RELEASE_CHECKLIST.md)

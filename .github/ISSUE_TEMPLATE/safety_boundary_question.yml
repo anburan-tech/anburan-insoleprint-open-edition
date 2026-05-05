@@ -1,0 +1,28 @@
+name: Safety boundary question
+description: Ask about wording or use-cases that may need safer framing.
+title: "[Safety Boundary]: "
+labels:
+  - safety-boundary
+body:
+  - type: textarea
+    id: unclear_wording
+    attributes:
+      label: What wording or use case seems unclear?
+    validations:
+      required: true
+  - type: dropdown
+    id: misread_risk
+    attributes:
+      label: Could this be misread as medical, clinical, orthotic, therapeutic, or corrective?
+      options:
+        - Yes
+        - No
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: safer_wording
+    attributes:
+      label: Suggested safer wording
+    validations:
+      required: true

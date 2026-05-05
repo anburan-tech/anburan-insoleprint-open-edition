@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a reproducible issue in the open-source edition.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, shell, and any relevant runtime context.
+    validations:
+      required: true
+  - type: input
+    id: python_version
+    attributes:
+      label: Python version
+      placeholder: e.g., 3.11.9
+    validations:
+      required: true
+  - type: textarea
+    id: command_run
+    attributes:
+      label: Command run
+      description: Paste the exact command(s) you used.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: error_output
+    attributes:
+      label: Error output
+      description: Paste stack traces or logs if available.
+    validations:
+      required: false
