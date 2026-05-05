@@ -28,7 +28,7 @@ This repository provides a lightweight CLI workflow that:
 ## What v0.1 cannot do
 
 - Not suitable for medical, clinical, orthotic, or therapeutic use.
-- Does not provide diagnosis, treatment, correction, prescription, or clinical recommendations.
+- Does not provide diagnosis, treatment, correction, orthotic prescription, clinical recommendation, therapeutic advice, or medical recommendation.
 - Does not provide biomechanical correction logic.
 - Does not support commercial fitting claims.
 - Does not include internal or proprietary Anburan systems or confidential rules.
