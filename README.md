@@ -74,3 +74,10 @@ Please test cautiously and submit feedback through repository issues using templ
 - `feedback/field_test_template.md`
 
 Helpful feedback includes printer setup, print outcome, and plain-language comfort observations.
+
+## Public release readiness
+
+- **Current status:** v0.1 scaffold
+- **Intended users:** personal users, makers, small studios, and 3D printing practitioners
+- **Not for:** medical, clinical, orthotic, therapeutic, or commercial fitting claims
+- Users should test cautiously and submit feedback through Issues
