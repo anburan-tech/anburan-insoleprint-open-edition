@@ -1,0 +1,10 @@
+{
+  "left_foot_length_mm": 255,
+  "right_foot_length_mm": 258,
+  "left_forefoot_width_mm": 98,
+  "right_forefoot_width_mm": 100,
+  "arch_height_level": "medium",
+  "instep_pressure_level": "mild",
+  "use_case": "daily_walking",
+  "in_shoe_space_preference": "medium"
+}
