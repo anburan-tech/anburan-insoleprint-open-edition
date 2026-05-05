@@ -1,0 +1,17 @@
+# Python cache/artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Build/distribution
+dist/
+build/
+*.egg-info/
+
+# Local generated outputs
+examples/*.stl
+examples/*_output.json

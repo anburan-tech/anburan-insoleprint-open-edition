@@ -1,0 +1,20 @@
+{
+  "input_summary": {
+    "avg_foot_length_mm": 256.5,
+    "avg_forefoot_width_mm": 99.0,
+    "arch_height_level": "medium",
+    "use_case": "daily_walking"
+  },
+  "fit": {
+    "fit_note": "General comfort-oriented placeholder fit for personal experimentation.",
+    "caution_flags": [],
+    "recommended_insole_thickness_mm": 3.5
+  },
+  "print_readiness": {
+    "estimated_print_minutes": 271,
+    "readiness_status": "ready",
+    "reason": "Looks suitable for basic personal 3D printing assumptions."
+  },
+  "stl_path": "examples/sample_insole.stl",
+  "disclaimer": "Non-medical exploratory output for personal 3D printing experimentation."
+}
