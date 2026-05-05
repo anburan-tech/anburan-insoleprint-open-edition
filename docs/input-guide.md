@@ -36,7 +36,7 @@ Example from the sample input: `daily_walking`.
 
 ### `in_shoe_space_preference`
 How much in-shoe space you prefer.
-Use one of the project-supported levels (for example: `low`, `medium`, `high`).
+Use one of the project-supported levels (for example: `thin`, `medium`, `thick`).
 
 ## Important notes
 
