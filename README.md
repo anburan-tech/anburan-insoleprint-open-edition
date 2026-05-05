@@ -2,6 +2,8 @@
 
 Anburan InsolePrint Open Edition is an **independent open-source edition** for everyday footwear fit exploration and 3D printing experimentation.
 
+New here? Start with [QUICK_START.md](QUICK_START.md).
+
 It is designed for:
 - personal users
 - makers and hobbyists
@@ -49,6 +51,8 @@ python -m pip install -U pip
 ```
 
 ## Run the CLI
+
+See also: [docs/input-guide.md](docs/input-guide.md) for a field-by-field explanation of the sample input.
 
 ```bash
 python -m app.cli --input examples/sample_input.json --output examples/sample_output.json --stl examples/sample_insole.stl
